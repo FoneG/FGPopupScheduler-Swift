@@ -1,6 +1,0 @@
-framework module FGPopupScheduler_Swift {
-  umbrella header "FGPopupScheduler-Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
