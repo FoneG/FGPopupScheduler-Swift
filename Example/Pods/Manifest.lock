@@ -1,0 +1,16 @@
+PODS:
+  - FGPopupScheduler-Swift (0.5.0)
+
+DEPENDENCIES:
+  - FGPopupScheduler-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  FGPopupScheduler-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FGPopupScheduler-Swift: 0b98cc379f8022b9c45caf9b18fd0843964b7d5d
+
+PODFILE CHECKSUM: c994ed2a4d891aa6b71a539a98d27234fe339fe9
+
+COCOAPODS: 1.11.2

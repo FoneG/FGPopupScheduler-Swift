@@ -1,0 +1,6 @@
+framework module Pods_FGPopupScheduler_Swift_Tests {
+  umbrella header "Pods-FGPopupScheduler-Swift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

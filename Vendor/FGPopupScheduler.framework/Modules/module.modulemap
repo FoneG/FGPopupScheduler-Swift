@@ -1,0 +1,6 @@
+framework module FGPopupScheduler {
+  umbrella header "FGPopupScheduler.h"
+
+  export *
+  module * { export * }
+}
