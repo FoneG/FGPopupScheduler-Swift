@@ -214,10 +214,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T6YKNC9RA4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T6YKNC9RA4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -463,6 +465,7 @@
 			baseConfigurationReference = 4A343576927EA5D8423AC69A /* Pods-FGPopupScheduler-Swift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6YKNC9RA4;
 				INFOPLIST_FILE = "FGPopupScheduler-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -478,6 +481,7 @@
 			baseConfigurationReference = 94EFB7EAF77193B2FE965A82 /* Pods-FGPopupScheduler-Swift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6YKNC9RA4;
 				INFOPLIST_FILE = "FGPopupScheduler-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -492,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1C64B0C5A66B41E524FDFB9 /* Pods-FGPopupScheduler-Swift_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T6YKNC9RA4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -514,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FF2ADC5D44E2DFAB51545F5 /* Pods-FGPopupScheduler-Swift_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T6YKNC9RA4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
