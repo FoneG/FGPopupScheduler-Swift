@@ -5,13 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 
-[详细介绍](https://github.com/FoneG/FGPopupScheduler)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+最近在搞二进制化顺手把[FGPopupScheduler](https://github.com/FoneG/FGPopupScheduler)处理了下，至少能先支持Swift。等后边有时间了用Swift重写一版
 
 ## Installation
 
@@ -21,11 +15,3 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FGPopupScheduler-Swift'
 ```
-
-## Author
-
-15757127193@163.com, 15757127193@163.com
-
-## License
-
-FGPopupScheduler-Swift is available under the MIT license. See the LICENSE file for more info.
