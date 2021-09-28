@@ -6,81 +6,74 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A45CCE133A1DD7CE26A0CFF474E0AEB5 /* FGPopupScheduler-Swift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74C49F37D35B06A27677D8F57BF16B3E /* Build configuration list for PBXAggregateTarget "FGPopupScheduler-Swift" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "FGPopupScheduler-Swift";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		3253623D7E10B2B0845E891FAC3A0C0A /* FGPopupScheduler-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D00A20A73F62B280B58B712E7DADB0 /* FGPopupScheduler-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50966250440D64FA227DA27FA52CFC0A /* Pods-FGPopupScheduler-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEED8F8732CD3BBDD44C303BB2F517 /* Pods-FGPopupScheduler-Swift_Tests-dummy.m */; };
 		66034B07C66BC56ADF2E8289EA168418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		74CC81931A4B8463BC124ECB93E28339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		80AC5C163B93D7A52796C7C6D17A098F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A66F610A860AAE55FFD956697A42A9FF /* Pods-FGPopupScheduler-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E14FA797213C7E12F4662C320C26F59 /* Pods-FGPopupScheduler-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE67563433D78AA9BA0C8D4D50010E74 /* FGPopupScheduler-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50479CBC854ED16DED3B6B7997C680B5 /* FGPopupScheduler-Swift-dummy.m */; };
-		C33A87394C45324ED558F7E48BD0C948 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17FED65A30BB83640137B00646CB00 /* ReplaceMe.swift */; };
 		E561E032ED5832A509E4F72F1F9C899D /* Pods-FGPopupScheduler-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3A923A7592F6F3FC7CED9D6DF4789F /* Pods-FGPopupScheduler-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED064C4E277C8E8D0558D168B5CFA002 /* Pods-FGPopupScheduler-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB443091D08A3763BC60D268AA272D8 /* Pods-FGPopupScheduler-Swift_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1242B60CF1214D013247D8B186E35659 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDA6A30ECE1199A4570BAC2FDA7A3549;
-			remoteInfo = "Pods-FGPopupScheduler-Swift_Example";
-		};
-		E03166159BAA920A363EBBE8BD2DA3DE /* PBXContainerItemProxy */ = {
+		187433CFA6F000EF3F1609C66FFAE632 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A45CCE133A1DD7CE26A0CFF474E0AEB5;
 			remoteInfo = "FGPopupScheduler-Swift";
 		};
+		D926619F58510EC7CC5DD45AA69762B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA6A30ECE1199A4570BAC2FDA7A3549;
+			remoteInfo = "Pods-FGPopupScheduler-Swift_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C507143770C7279477407B5A28259D /* FGPopupScheduler-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "FGPopupScheduler-Swift.modulemap"; sourceTree = "<group>"; };
 		03DFD12562C2AD3AE234D12DF0379806 /* Pods-FGPopupScheduler-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGPopupScheduler-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		07CDE2393FBF33CE65DE87317109E21F /* Pods-FGPopupScheduler-Swift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FGPopupScheduler-Swift_Tests"; path = Pods_FGPopupScheduler_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E14FA797213C7E12F4662C320C26F59 /* Pods-FGPopupScheduler-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGPopupScheduler-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1711BA1818E187A62A9589C36F698AB9 /* FGPopupScheduler-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGPopupScheduler-Swift-prefix.pch"; sourceTree = "<group>"; };
-		1946DAC3E9BE97147A88C362F89B8540 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1CFC589D6BC53DAFE3F62F535AEAFFB5 /* Pods-FGPopupScheduler-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGPopupScheduler-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
-		1FC410CC74F04F30BDBF2EF4749F2F0C /* FGPopupScheduler-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "FGPopupScheduler-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; };
-		20580AD483C7DC92A39CFA77306CFA77 /* FGPopupScheduler-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "FGPopupScheduler-Swift"; path = FGPopupScheduler_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30C1F9BEACAAC3C23275E804289D359E /* FGPopupScheduler-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FGPopupScheduler-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		4206546A6646681F6BF469202F61429D /* Pods-FGPopupScheduler-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGPopupScheduler-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4BCD0D9BC74A9A95D396287D392354A8 /* Pods-FGPopupScheduler-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FGPopupScheduler-Swift_Example.modulemap"; sourceTree = "<group>"; };
-		50479CBC854ED16DED3B6B7997C680B5 /* FGPopupScheduler-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGPopupScheduler-Swift-dummy.m"; sourceTree = "<group>"; };
 		51695E604E0BD8EA5935C2664C559C28 /* Pods-FGPopupScheduler-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGPopupScheduler-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5ABC752AD6ECFC30DC8422A3DE775B9D /* FGPopupScheduler-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FGPopupScheduler-Swift-Info.plist"; sourceTree = "<group>"; };
+		5283E7DF51FA7A7991517362CBB0B4F2 /* FGPopupScheduler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FGPopupScheduler.framework; path = Vendor/FGPopupScheduler.framework; sourceTree = "<group>"; };
+		57325420F48EEB81FB660FD7703C40BE /* FGPopupScheduler-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FGPopupScheduler-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		66CC8831BEA778E0D8C7164E7A76B7F5 /* Pods-FGPopupScheduler-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FGPopupScheduler-Swift_Tests.modulemap"; sourceTree = "<group>"; };
-		68BFDA4A564FD1D5B55A3C0A05C660E6 /* FGPopupScheduler-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FGPopupScheduler-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		6F17FED65A30BB83640137B00646CB00 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "FGPopupScheduler-Swift/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7592E8C9B4F3E2FE5A7B171DD3A788DC /* Pods-FGPopupScheduler-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGPopupScheduler-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BCEED8F8732CD3BBDD44C303BB2F517 /* Pods-FGPopupScheduler-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGPopupScheduler-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
 		95EC73CE10B9D598659A744BCC9693BB /* Pods-FGPopupScheduler-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGPopupScheduler-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98D00A20A73F62B280B58B712E7DADB0 /* FGPopupScheduler-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGPopupScheduler-Swift-umbrella.h"; sourceTree = "<group>"; };
 		9D3A923A7592F6F3FC7CED9D6DF4789F /* Pods-FGPopupScheduler-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGPopupScheduler-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3562013467218F6533E31F138BE9B99 /* FGPopupScheduler-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "FGPopupScheduler-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6F6D239DD9EA359671471D1205D1F84 /* Pods-FGPopupScheduler-Swift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FGPopupScheduler-Swift_Example"; path = Pods_FGPopupScheduler_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE09ABD58A2EC01E11D723DB4B02DAC /* Pods-FGPopupScheduler-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGPopupScheduler-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFB443091D08A3763BC60D268AA272D8 /* Pods-FGPopupScheduler-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGPopupScheduler-Swift_Example-dummy.m"; sourceTree = "<group>"; };
 		AFF835D9DDD325E748B0195FAB3448F4 /* Pods-FGPopupScheduler-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGPopupScheduler-Swift_Example-Info.plist"; sourceTree = "<group>"; };
-		C1A9A028CD751A352594E57BE7E08C3C /* FGPopupScheduler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FGPopupScheduler.framework; path = Vendor/FGPopupScheduler.framework; sourceTree = "<group>"; };
-		D4C4FA7F1302755B2DF372ED4AFE35BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B861923330F03D118453A51EEECF94AB /* FGPopupScheduler-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FGPopupScheduler-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0FE675B312616D5C282D963D775F99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E4B84321B335147F5C5B73B745C3AEEA /* Pods-FGPopupScheduler-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGPopupScheduler-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F09163AFC1DC1F6AABC2AE961571C1F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F287BCF72363EE7B3DD53887BD6827FC /* Pods-FGPopupScheduler-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGPopupScheduler-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29318DB64921FAB0457397A5BA896D3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80AC5C163B93D7A52796C7C6D17A098F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3EE3580EA480E67593BD76C5BA2FFA90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,16 +102,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1D04944D89B19D5E055801ABA7CA6B03 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				20580AD483C7DC92A39CFA77306CFA77 /* FGPopupScheduler-Swift */,
-				A6F6D239DD9EA359671471D1205D1F84 /* Pods-FGPopupScheduler-Swift_Example */,
-				07CDE2393FBF33CE65DE87317109E21F /* Pods-FGPopupScheduler-Swift_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1D454D89816E6F5D230397A5F7FFED90 /* Pods-FGPopupScheduler-Swift_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,31 +118,6 @@
 			path = "Target Support Files/Pods-FGPopupScheduler-Swift_Example";
 			sourceTree = "<group>";
 		};
-		2EBC5D2A39793785FB5FEFF7BB53ED5D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1FC410CC74F04F30BDBF2EF4749F2F0C /* FGPopupScheduler-Swift.podspec */,
-				1946DAC3E9BE97147A88C362F89B8540 /* LICENSE */,
-				D4C4FA7F1302755B2DF372ED4AFE35BC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2F2CD9C3EDECD1C773ECB3BB149FEFEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				01C507143770C7279477407B5A28259D /* FGPopupScheduler-Swift.modulemap */,
-				50479CBC854ED16DED3B6B7997C680B5 /* FGPopupScheduler-Swift-dummy.m */,
-				5ABC752AD6ECFC30DC8422A3DE775B9D /* FGPopupScheduler-Swift-Info.plist */,
-				1711BA1818E187A62A9589C36F698AB9 /* FGPopupScheduler-Swift-prefix.pch */,
-				98D00A20A73F62B280B58B712E7DADB0 /* FGPopupScheduler-Swift-umbrella.h */,
-				68BFDA4A564FD1D5B55A3C0A05C660E6 /* FGPopupScheduler-Swift.debug.xcconfig */,
-				30C1F9BEACAAC3C23275E804289D359E /* FGPopupScheduler-Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FGPopupScheduler-Swift";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,43 +126,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8BE4A82681E5CBE9878AEAE8C84FB75A /* Frameworks */ = {
+		746F5A2DE2B1277CE10A52D680B5720F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1A9A028CD751A352594E57BE7E08C3C /* FGPopupScheduler.framework */,
+				B861923330F03D118453A51EEECF94AB /* FGPopupScheduler-Swift.debug.xcconfig */,
+				57325420F48EEB81FB660FD7703C40BE /* FGPopupScheduler-Swift.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FGPopupScheduler-Swift";
 			sourceTree = "<group>";
 		};
-		B560494F4C7C36199555DAFF70D14F5F /* FGPopupScheduler-Swift */ = {
+		765640FE5A34CB288C964B0A97CFF584 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F17FED65A30BB83640137B00646CB00 /* ReplaceMe.swift */,
-				8BE4A82681E5CBE9878AEAE8C84FB75A /* Frameworks */,
-				2EBC5D2A39793785FB5FEFF7BB53ED5D /* Pod */,
-				2F2CD9C3EDECD1C773ECB3BB149FEFEA /* Support Files */,
-			);
-			name = "FGPopupScheduler-Swift";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B75A692A39D6D5E6D994CFEAED0D6082 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B560494F4C7C36199555DAFF70D14F5F /* FGPopupScheduler-Swift */,
+				CF91AA56464FBEBC413289A5FEEC1FC5 /* FGPopupScheduler-Swift */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80CF540ABD09148D72254CE97231C70C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3562013467218F6533E31F138BE9B99 /* FGPopupScheduler-Swift.podspec */,
+				BB0FE675B312616D5C282D963D775F99 /* LICENSE */,
+				F09163AFC1DC1F6AABC2AE961571C1F0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CCB792A39EF9F9F483E6A97BBAA84197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5283E7DF51FA7A7991517362CBB0B4F2 /* FGPopupScheduler.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B75A692A39D6D5E6D994CFEAED0D6082 /* Development Pods */,
+				765640FE5A34CB288C964B0A97CFF584 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1D04944D89B19D5E055801ABA7CA6B03 /* Products */,
+				DC6885F3387A2FFBCD2E32EE4754A4D4 /* Products */,
 				18263A5093B0E224CB3B693EC7D09EDA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF91AA56464FBEBC413289A5FEEC1FC5 /* FGPopupScheduler-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CCB792A39EF9F9F483E6A97BBAA84197 /* Frameworks */,
+				80CF540ABD09148D72254CE97231C70C /* Pod */,
+				746F5A2DE2B1277CE10A52D680B5720F /* Support Files */,
+			);
+			name = "FGPopupScheduler-Swift";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -231,6 +208,15 @@
 			path = "Target Support Files/Pods-FGPopupScheduler-Swift_Tests";
 			sourceTree = "<group>";
 		};
+		DC6885F3387A2FFBCD2E32EE4754A4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6D239DD9EA359671471D1205D1F84 /* Pods-FGPopupScheduler-Swift_Example */,
+				07CDE2393FBF33CE65DE87317109E21F /* Pods-FGPopupScheduler-Swift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,14 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E561E032ED5832A509E4F72F1F9C899D /* Pods-FGPopupScheduler-Swift_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131A3BDD96FAE9FCD001B0A627A5D3C9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3253623D7E10B2B0845E891FAC3A0C0A /* FGPopupScheduler-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,24 +239,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A45CCE133A1DD7CE26A0CFF474E0AEB5 /* FGPopupScheduler-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8C6509C1FFCCD7A2AFB1A1DE8025BB9 /* Build configuration list for PBXNativeTarget "FGPopupScheduler-Swift" */;
-			buildPhases = (
-				131A3BDD96FAE9FCD001B0A627A5D3C9 /* Headers */,
-				F14CAD8E2755EBD9B84BBE2E225A5CAA /* Sources */,
-				29318DB64921FAB0457397A5BA896D3F /* Frameworks */,
-				E0C1A8A7C82C9D5EB49AD3AD57A47FA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FGPopupScheduler-Swift";
-			productName = FGPopupScheduler_Swift;
-			productReference = 20580AD483C7DC92A39CFA77306CFA77 /* FGPopupScheduler-Swift */;
-			productType = "com.apple.product-type.framework";
-		};
 		BABCFEEFF7A91B3898C7ACC63E268D16 /* Pods-FGPopupScheduler-Swift_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63CD4C58220064A7C167D82121472AB2 /* Build configuration list for PBXNativeTarget "Pods-FGPopupScheduler-Swift_Tests" */;
@@ -291,7 +251,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D6DE2ACC88AED68893F53452395A3CB3 /* PBXTargetDependency */,
+				5E179E9A2B9476F92844245C3B0A3879 /* PBXTargetDependency */,
 			);
 			name = "Pods-FGPopupScheduler-Swift_Tests";
 			productName = Pods_FGPopupScheduler_Swift_Tests;
@@ -310,7 +270,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				30FFB6F13EEC8BB24039E75BB8335261 /* PBXTargetDependency */,
+				27D05DBC61EAED421BFF1794A9A18E72 /* PBXTargetDependency */,
 			);
 			name = "Pods-FGPopupScheduler-Swift_Example";
 			productName = Pods_FGPopupScheduler_Swift_Example;
@@ -335,7 +295,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D04944D89B19D5E055801ABA7CA6B03 /* Products */;
+			productRefGroup = DC6885F3387A2FFBCD2E32EE4754A4D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -361,13 +321,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0C1A8A7C82C9D5EB49AD3AD57A47FA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -387,29 +340,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F14CAD8E2755EBD9B84BBE2E225A5CAA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE67563433D78AA9BA0C8D4D50010E74 /* FGPopupScheduler-Swift-dummy.m in Sources */,
-				C33A87394C45324ED558F7E48BD0C948 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30FFB6F13EEC8BB24039E75BB8335261 /* PBXTargetDependency */ = {
+		27D05DBC61EAED421BFF1794A9A18E72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FGPopupScheduler-Swift";
 			target = A45CCE133A1DD7CE26A0CFF474E0AEB5 /* FGPopupScheduler-Swift */;
-			targetProxy = E03166159BAA920A363EBBE8BD2DA3DE /* PBXContainerItemProxy */;
+			targetProxy = 187433CFA6F000EF3F1609C66FFAE632 /* PBXContainerItemProxy */;
 		};
-		D6DE2ACC88AED68893F53452395A3CB3 /* PBXTargetDependency */ = {
+		5E179E9A2B9476F92844245C3B0A3879 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FGPopupScheduler-Swift_Example";
 			target = FDA6A30ECE1199A4570BAC2FDA7A3549 /* Pods-FGPopupScheduler-Swift_Example */;
-			targetProxy = 1242B60CF1214D013247D8B186E35659 /* PBXContainerItemProxy */;
+			targetProxy = D926619F58510EC7CC5DD45AA69762B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,34 +489,16 @@
 			};
 			name = Release;
 		};
-		5580D68395447CBBBAD44C41BA4F1A62 /* Debug */ = {
+		6E8E38D49F0B96536215B027DDF008F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68BFDA4A564FD1D5B55A3C0A05C660E6 /* FGPopupScheduler-Swift.debug.xcconfig */;
+			baseConfigurationReference = B861923330F03D118453A51EEECF94AB /* FGPopupScheduler-Swift.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift.modulemap";
-				PRODUCT_MODULE_NAME = FGPopupScheduler_Swift;
-				PRODUCT_NAME = FGPopupScheduler_Swift;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -641,35 +567,17 @@
 			};
 			name = Debug;
 		};
-		C8A3E7D299C220860307DF357EB25B13 /* Release */ = {
+		C958110E46433C0EEF74A4CACBA4EF82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30C1F9BEACAAC3C23275E804289D359E /* FGPopupScheduler-Swift.release.xcconfig */;
+			baseConfigurationReference = 57325420F48EEB81FB660FD7703C40BE /* FGPopupScheduler-Swift.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FGPopupScheduler-Swift/FGPopupScheduler-Swift.modulemap";
-				PRODUCT_MODULE_NAME = FGPopupScheduler_Swift;
-				PRODUCT_NAME = FGPopupScheduler_Swift;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -728,7 +636,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -755,11 +664,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8C6509C1FFCCD7A2AFB1A1DE8025BB9 /* Build configuration list for PBXNativeTarget "FGPopupScheduler-Swift" */ = {
+		74C49F37D35B06A27677D8F57BF16B3E /* Build configuration list for PBXAggregateTarget "FGPopupScheduler-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5580D68395447CBBBAD44C41BA4F1A62 /* Debug */,
-				C8A3E7D299C220860307DF357EB25B13 /* Release */,
+				6E8E38D49F0B96536215B027DDF008F3 /* Debug */,
+				C958110E46433C0EEF74A4CACBA4EF82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

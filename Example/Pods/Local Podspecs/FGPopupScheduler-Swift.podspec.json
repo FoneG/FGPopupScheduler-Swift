@@ -14,16 +14,13 @@
     "git": "git@github.com:FoneG/FGPopupScheduler-Swift.git",
     "tag": "0.5.0"
   },
-  "source_files": "FGPopupScheduler-Swift/Classes/**/*",
+  "platforms": {
+    "ios": "9.0"
+  },
   "libraries": "c++.1",
   "requires_arc": true,
   "swift_versions": "5.0",
   "static_framework": true,
-  "platforms": {
-    "ios": "9.0"
-  },
-  "ios": {
-    "vendored_frameworks": "Vendor/FGPopupScheduler.framework"
-  },
+  "vendored_frameworks": "Vendor/FGPopupScheduler.framework",
   "swift_version": "5.0"
 }

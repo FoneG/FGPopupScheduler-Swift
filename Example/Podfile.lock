@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FGPopupScheduler-Swift: 0b98cc379f8022b9c45caf9b18fd0843964b7d5d
+  FGPopupScheduler-Swift: f48a1bb5d8f456ccc3dd650d879d1cc606d1307b
 
 PODFILE CHECKSUM: c994ed2a4d891aa6b71a539a98d27234fe339fe9
 
