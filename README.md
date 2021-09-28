@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 
+[详细介绍](https://github.com/FoneG/FGPopupScheduler)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
