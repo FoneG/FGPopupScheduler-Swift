@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/FGPopupScheduler-Swift.svg?style=flat)](https://cocoapods.org/pods/FGPopupScheduler-Swift)
 
-最近在搞二进制化顺手把[FGPopupScheduler](https://github.com/FoneG/FGPopupScheduler)处理了下，至少能先支持Swift。等后边有时间了用Swift重写一版
+最近在搞二进制化顺手把[FGPopupScheduler](https://github.com/FoneG/FGPopupScheduler)处理了下，等后边有时间了用Swift重写一版
 
 ## Installation
 
